@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AllRecipes Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Radio+Canada:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="https://seeklogo.com/images/A/allrecipes-logo-3116C9D39C-seeklogo.com.png" alt="AllRecipes Logo">
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Find a recipe or ingredient">
+            <button type="submit"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="nav-links">
+            <a href="#"><i class="fa-solid fa-circle-user fa-lg" style="color: #f4511e;"></i> Log In</a>
+        </div>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+    
+    
+
+    <!-- Submenu -->
+    <nav class="submenu">
+        <ul>
+            <li><a href="#">Dinners</a></li>
+            <li><a href="#">Meals</a></li>
+            <li><a href="#">Ingredients</a></li>
+            <li><a href="#">Occasions</a></li>
+            <li><a href="#">Cuisines</a></li>
+            <li><a href="#">Kitchen Tips</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#" class="highlight">Get the Magazine</a></li>
+        </ul>
+    </nav>
+    <div class="nav-container"></div>
+    <div class="page-1-container">
+      <div class="page-1-banner">
+        <h2 class="underline-red">
+          America's <span>#1 Trusted Recipe Resource</span> since 1997
+        </h2>
+        <div class="dot-display">
+          <div class="dot-green">
+            <h3>113K</h3>
+            <p>Original Recipes</p>
+          </div>
+          <div class="dot-red">
+            <h3>6.9M+</h3>
+            <p>Ratings & Reviews</p>
+          </div>
+          <div class="dot-yellow">
+            <h3>60M</h3>
+            <p>Home Cooks</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+<!-- Main Content Section -->
+<section class="main-content">
+    <div class="left-content">
+        <img src="https://www.allrecipes.com/thmb/jEAE0ExTIegTDe9EgtZ5wFoay2Q=/800x533/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/ar-best-recipies-24-table-1221-4x3-117c6895780242b5b7ce9adeced9e878.jpg" alt="Food Image" class="food-image">
+        <div class="recipe-description">
+            <small>IN THE KITCHEN</small>
+            <h2>Best Recipes 2024: Party Edition</h2>
+            <p>Whether you're hanging out with friends and family, a "party," "entertaining," or a "get-together," having involves good food. Here are our recipe picks for any occasion.</p>
+        </div>
+    </div>
+    <div class="right-content">
+        <h3>Food News</h3>
+        <ul class="food-news">
+            <li>
+                <img src="https://www.allrecipes.com/thmb/W-CVc91402OveNLLvvVNqFnZLio=/144x95/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/ar-Ina-Gartens-Beef-Stew-Recipe_4x3-d693329913ae498aafe3d64c3b8725d2.jpg" alt="News 1">
+                <p>Ina Garten's Beef Stew Recipe Is What We're Making on Repeat All Season Long</p>
+            </li>
+            <li>
+                <img src="https://www.allrecipes.com/thmb/K7CIJhHycJ7X7cx-bdfYiBTi4Mw=/144x95/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/8690218-AppleSpiceRolls-Allrecipes-Magazine-GOLDMAN_ALR_FallBZ_WakeUp_R317338_36163-4x3-de9f69e8d3374f50bfe5c69e5d2be4b5.jpg" alt="News 4">
+                <p>Our Fall Issue of Allrecipes Magazine Is Here</p>
+            </li>
+            <li>
+                <img src="https://www.allrecipes.com/thmb/6HLDrXZncG1Gl2B2fs9qVwq2kYo=/144x95/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/ar-dunkin-fall-adobe-4x3-abc42304ad384d77ab5f9638c3c84180.jpg" alt="News 2">
+                <p>Dunkin’s Fall Menu Is the Best We’ve Seen in Years</p>
+            </li>
+            <li>
+                <img src="https://www.allrecipes.com/thmb/d0JAm94WXE8H2ftWEU4LSbSkUM8=/144x95/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Best-Vacuum-Sealer-ALR-tout-b07956e49827407884678d68a8c3032f.jpg" alt="News 3">
+                <p>I Finally Found the Best Vacuum Sealer for My Tiny Kitchen</p>
+            </li>
+        </ul>
+    </div>
+</section>
+<!-- Trending Section -->
+<section class="trending-now">
+    <h2>Trending Now</h2>
+    <div class="trending-grid">
+        <div class="trending-item">
+            <img src="https://www.allrecipes.com/thmb/iqas1avyCn8G38DuuyQkSp2nplg=/400x264/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/8495323_Disneys-Ratatouille-4x3-bf5d226f74224306a022efba8576ceb2.jpg" alt="Trending 1">
+            <div class="trending-text">
+                <span class="trending-category">TRENDS</span>
+                <h3>The 18 Recipes We Can’t Wait To Make This September</h3>
+            </div>
+        </div>
+        <div class="trending-item">
+            <img src="https://www.allrecipes.com/thmb/CrJ5P7eweVujdM64yT7WBOxU0Uw=/400x264/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Football-Cheese-Ball-1x1-1-34baff68d817404dbcf3b84bcdc1fad6.png" alt="Trending 2">
+            <div class="trending-text">
+                <span class="trending-category">TAILGATING</span>
+                <h3>The Most Popular Tailgating Foods Across 34 States</h3>
+            </div>
+        </div>
+        <div class="trending-item">
+            <img src="https://www.allrecipes.com/thmb/-qqqSUux6Ydzm1n7w0VDtKEsl08=/400x264/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/458727_Plum-Blueberry-Upside-Down-Cake-4x3-peach-version-8c69820403ba4d578b00a9ec46e5013f.jpg" alt="Trending 3">
+            <div class="trending-text">
+                <span class="trending-category">FRUIT DESSERTS</span>
+                <h3>14 Perfect Fruit Desserts for Late Summer</h3>
+            </div>
+        </div>
+        <div class="trending-item">
+            <img src="https://www.allrecipes.com/thmb/-zsgsnLZ1-cYjKaOK16AeBs3uGQ=/400x264/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/5770471_Arizona-Hatch-Chili-4x3-RecipeID-266314-Green-Chili-da729e6a04cb4f949ee1741f66eff045.jpg" alt="Trending 4">
+            <div class="trending-text">
+                <span class="trending-category">HATCH CHILES</span>
+                <h3>We’re Hooked on Hatch Chiles</h3>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="home-cook-section" >
+    <div class="home-cook">
+        <h2>Home of the Home Cook</h2>
+        <p>We know our community (that’s you!) is the key ingredient that sets us apart. <a href="#">LEARN MORE →</a></p>
+        <div class="testimonial">
+            <img src="https://www.allrecipes.com/thmb/IPt9cyWvKH8Ybw9pGeoci0Tpk5A=/220x220/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/JimMorehand-NewYork-d779b733cb77498a94fbde0432d3a80d.jpg" alt="Testimonial Image" class="testimonial-img">
+            <div class="testimonial-text">
+                <h3>Mini Lemon Meringue Pies</h3>
+                <p>"The lemon filling tasted great and just right. I [used] a bit more juice because I like a higher tartness level. I'll make these babies again!"</p>
+                <p><strong>JIM MOREHAND, NEW YORK, JOINED 2016</strong></p>
+            </div>
+        </div>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i> 3.9M</a>
+            <a href="#"><i class="fab fa-instagram"></i> 2.2M</a>
+            <a href="#"><i class="fab fa-pinterest"></i> 1.3M</a>
+            <a href="#"><i class="fab fa-tiktok"></i> 678.4K</a>
+            <a href="#"><i class="fab fa-xing"></i> 1M</a>
+        </div>
+    </div>
+    <div class="our-people">
+        <h2>Our People</h2>
+        <p>Testing, tasting, editing, and tasting again—our food pros are dedicated to showcasing the best of what you, our home cook heroes, are doing in your kitchens.</p>
+        <div class="people-grid">
+            <h4>Editorial Leadership <a href="#">→</a></h4>
+            <div class="person">
+                <img src="https://www.allrecipes.com/thmb/VmfQIMU29bIj_CrAoOHm_h2HRsQ=/220x220/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Ashley-784a6168bad84a919fefbc4ed7137029.jpeg" alt="Editor 1">
+            </div>
+            <div class="person">
+                <img src="https://www.allrecipes.com/thmb/Vp_AjGMV5NcWJLE8EBVddOjOATU=/220x220/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Diana-8b6d081cf2d046b48ca96aec4f2e83a8.jpeg" alt="Editor 2">
+            </div>
+            <div class="person">
+                <img src="https://www.allrecipes.com/thmb/uxJ-b7WYHmzoapL3ATWIa3LkHfY=/220x220/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Liza-dbd720a4004a4eacaca9731d7d8a9a01.jpeg" alt="Editor 3">
+            </div>
+
+            <h4>Contributors <a href="#">→</a></h4>
+            <div class="person">
+                <img src="https://www.allrecipes.com/thmb/MAugZabTU98M6nCIoGfCGVLLlBA=/220x220/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/PaulPJ-0b0a068096464f2d897eb44eefa960e2.jpeg" alt="Contributor 1">
+            </div>
+            <div class="person">
+                <img src="https://www.allrecipes.com/thmb/jA-mEYWKF26bQQGAo4D2FdJ6zXA=/220x220/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Breana-c3fdd314768c4d91a960197a3d88ae8b.jpeg" alt="Contributor 2">
+            </div>
+            <div class="person">
+                <img src="https://www.allrecipes.com/thmb/TtHe3w72S9QKHsdxB_fKqSQeyuc=/220x220/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Nicole-ca075b77f4cf4840b7c59a41f4ada286.jpeg" alt="Contributor 3">
+            </div>
+
+            <h4>Test Kitchen <a href="#">→</a></h4>
+            <div class="person">
+                <img src="https://www.allrecipes.com/thmb/OiXewIiSWCutKCeG5ZKT3om6ytw=/220x220/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Julia-d5ac3a4c440e4c8983830a2fc61980ad.jpeg" alt="Test Kitchen 1">
+            </div>
+            <div class="person">
+                <img src="https://www.allrecipes.com/thmb/pvax9b0oZ_NzP7M6RMPn4F_7vqg=/220x220/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Juliana-82a92ba76f654d3e95a0e62707322e6e.jpeg" alt="Test Kitchen 2">
+            </div>
+            <div class="person">
+                <img src="https://www.allrecipes.com/thmb/of7wMmGshEnvqHtOhwMy3M4t2lI=/220x220/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Liz-91baaeaecda24183977803d6dc7d7836.jpeg" alt="Test Kitchen 3">
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="site-footer">
+    <div class="footer-top">
+        <div class="footer-logo">
+            <img src="https://seeklogo.com/images/A/allrecipes-logo-3116C9D39C-seeklogo.com.png" alt="AllRecipes Logo">
+            <button class="newsletter-btn">NEWSLETTERS</button>
+        </div>
+        <div class="footer-social">
+            <p>Follow Us</p>
+            <ul>
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                <li><a href="#"><i class="fab fa-tiktok"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fab fa-xing"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-links">
+            <div class="links-column">
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Anti-Racism Pledge</a></li>
+                    <li><a href="#">Product Vetting</a></li>
+                    <li><a href="#">Advertise</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>Allrecipes is part of the <a href="#">Dotdash Meredith</a> publishing family.</p>
+    </div>
+</footer>
+</body>
+</html>
